@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcontainer{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+h1{
+    font-size: 2rem;
+    color: green;
+}
+h3{
+    margin-top: 2rem;
+}
+button{
+    margin-top: 2rem;
+    width: 6rem;
+    height: 1.7rem;
+    font-weight: bold;
+}
